@@ -11,6 +11,8 @@ branch off from the 2017.06 tag.
 ## Building and Flashing
 See the [building and flashing instructions](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/) in the github docs folder.
 
+## Setting up the RFID Deck
+See README_RFID.md
 
 ## Official Documentation
 
