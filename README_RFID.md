@@ -41,7 +41,7 @@ In summary, comment out buzzdeck.o in the Makefile; clean, compile and flash wit
 # Flashing the RFID driver
 If you previously flashed on the rfid-deck branch to write the one-wire memory, these steps should already be completed.
 Add the following to the Makefile in the crazyflie-firmware project:
-PROJ_OBJ += rfid.o
+`PROJ_OBJ += rfid.o`
 If you'd like, you can now re-enable the buzzdeck driver and build with bluetooth enabled.
 Be sure to `make clean` then flash as normal.
 To check that the one-wire memory was written and the RFID driver installed correctly, connect to the drone
